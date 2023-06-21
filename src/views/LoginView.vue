@@ -9,7 +9,7 @@
                     <v-card-text>
                         <v-form>
                             <v-text-field v-model="email" label="Email"></v-text-field>
-                            <v-text-field v-model="password" label="Password"></v-text-field>
+                            <v-text-field type="password" v-model="password" label="Password"></v-text-field>
                         </v-form>
                     </v-card-text>
                     <v-card-actions>
